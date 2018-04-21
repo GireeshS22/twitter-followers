@@ -14,7 +14,8 @@ import time
 import pandas as pd
 
 #%%
-driver = webdriver.Chrome("C:/Users/Gireesh Sundaram/Downloads/chromedriver")
+#Please enter the path here where you have placed your chromoe driver
+driver = webdriver.Chrome(///Path of chrome driver)
 driver.get("https://www.twitter.com/login")
 
 elem = driver.find_element_by_css_selector(".js-initial-focus")
